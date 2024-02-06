@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <TheNavbar/>
-      <section className="container mx-auto">
+      <section>
         <Home/>
       </section>
     </>
