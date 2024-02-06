@@ -52,6 +52,7 @@ const GetStarted = () => {
 
         <div>
           <div className="ml-4 mt-4">
+              
             <h2 className="text-gray-50">
               1. Create a new <span className=" text-pink-500">index.html</span>{" "}
               file in your project root. Include the{" "}
