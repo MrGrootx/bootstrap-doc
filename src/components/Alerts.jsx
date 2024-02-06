@@ -1,7 +1,7 @@
 const Alerts = () => {
   return (
     <>
-      <section className="">
+      <section className="hidden">
         
         <div>
           <div className="flex justify-between items-center ">
@@ -23,7 +23,7 @@ const Alerts = () => {
           </p>
         </div>
 
-        <div className="bg-gray-600 max-w-96 p-3 rounded-md mt-4 border">
+        <div className="bg-gray-600 md:max-w-96 p-3 rounded-md mt-4 border">
           <div className="flex">
             <img
               src="https://srv.carbonads.net/static/30242/13cb3fbccbcc20e37fe4f8dfbf3820d38931fd19"

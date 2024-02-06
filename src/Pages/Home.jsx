@@ -26,7 +26,7 @@ const Home = () => {
       <section className="">
         
         <div className="container mx-auto h-screen">
-          <div className="p-9">
+          <div className="md:p-9">
             <div className="md:flex ">
               <div className=" w-[300px] p-3">
                 <div>
