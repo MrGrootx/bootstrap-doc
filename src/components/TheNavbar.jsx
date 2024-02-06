@@ -10,26 +10,28 @@ const TheNavbar = () => {
           <div className="flex justify-between p-2">
             <div className="flex items-center">
               <FaBootstrap className="text-4xl" />
-              <ul className="flex ml-3 gap-x-3">
-                <li className=" font-bold text-gray-300 hover:text-gray-300 cursor-pointer">
-                  Docs
-                </li>
-                <li className=" text-gray-300 hover:text-gray-200 cursor-pointer">
-                  Examples
-                </li>
-                <li className=" text-gray-300 hover:text-gray-200 cursor-pointer">
-                  Icons
-                </li>
-                <li className=" text-gray-300 hover:text-gray-200 cursor-pointer">
-                  Themes
-                </li>
-                <li className=" text-gray-300 hover:text-gray-200 cursor-pointer">
-                  Blog
-                </li>
-              </ul>
+              <div className="hidden md:block">
+                <ul className="flex ml-3 gap-x-3">
+                  <li className=" font-bold text-gray-300 hover:text-gray-300 cursor-pointer">
+                    Docs
+                  </li>
+                  <li className=" text-gray-300 hover:text-gray-200 cursor-pointer">
+                    Examples
+                  </li>
+                  <li className=" text-gray-300 hover:text-gray-200 cursor-pointer">
+                    Icons
+                  </li>
+                  <li className=" text-gray-300 hover:text-gray-200 cursor-pointer">
+                    Themes
+                  </li>
+                  <li className=" text-gray-300 hover:text-gray-200 cursor-pointer">
+                    Blog
+                  </li>
+                </ul>
+              </div>
             </div>
 
-            <div>
+            <div className="hidden md:block">
               <Search />
             </div>
 
