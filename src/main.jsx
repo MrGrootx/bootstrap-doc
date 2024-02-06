@@ -9,7 +9,7 @@ const rou = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
-    errorElement: <div>err</div>,
+    errorElement: <div>Opps Pagee Not Found.... Sir</div>,
   },
 ]);
 

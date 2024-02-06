@@ -9,7 +9,7 @@ const TheNavbar = () => {
         <div className="container mx-auto">
           <div className="flex justify-between p-2">
             <div className="flex items-center">
-              <FaBootstrap className="text-4xl" />
+              <FaBootstrap className="text-4xl text-white" />
               <div className="hidden md:block">
                 <ul className="flex ml-3 gap-x-3">
                   <li className=" font-bold text-gray-300 hover:text-gray-300 cursor-pointer">
