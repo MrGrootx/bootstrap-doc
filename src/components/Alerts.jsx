@@ -53,7 +53,7 @@ const Alerts = () => {
             </h2>
           </div>
 
-          <div className="bg-[#032830] border-s-4 border-[#087990]">
+          <div className="bg-[#032830] border-s-4 border-[#087990] mt-6">
             <div className="p-3">
               <p className="text-[#6edff6]">
                 Heads up! As of v5.3.0, the{" "}
@@ -63,7 +63,43 @@ const Alerts = () => {
               </p>
             </div>
           </div>
-          
+
+          <div className="border rounded border-gray-400 mt-4 ">
+            <div className="p-5">
+              <div className="border border-[#084298] p-4 bg-[#031633] text-[#2588fe] rounded-md mb-2">
+                A simple primary alert—check it out!
+              </div>
+
+              <div className="border border-[#41464b] p-4 bg-[#161719] text-[#99aca2] rounded-md mb-2">
+                A simple primary alert—check it out!
+              </div>
+
+              <div className="border border-[#0f5132] p-4 bg-[#051b11] text-[#75a95f] rounded-md mb-2">
+                A simple primary alert—check it out!
+              </div>
+
+              <div className="border border-[#842029] p-4 bg-[#2c0b0e] text-[#de868f] rounded-md mb-2">
+                A simple primary alert—check it out!
+              </div>
+
+              <div className="border border-[#997404] p-4 bg-[#332701] text-[#f2cc6a] rounded-md mb-2">
+                A simple primary alert—check it out!
+              </div>
+
+              <div className="border border-[#087990] p-4 bg-[#032830] text-[#6edfea] rounded-md mb-2">
+                A simple primary alert—check it out!
+              </div>
+
+              <div className="border border-[#495057] p-4 bg-[#343a40] text-white rounded-md mb-2">
+                A simple primary alert—check it out!
+              </div>
+
+              <div className="border border-[#343a40] p-4 bg-[#1a1d20] text-gray-200 rounded-md mb-2">
+                A simple primary alert—check it out!
+              </div>
+
+            </div>
+          </div>
         </div>
       </section>
     </>

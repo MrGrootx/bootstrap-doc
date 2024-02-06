@@ -23,7 +23,7 @@ const Home = () => {
 
   return (
     <>
-      <section className="bg-[#212529] h-screen">
+      <section className="bg-[#212529]">
         <div className="container mx-auto">
           <div className="p-9">
             <div className="flex ">
