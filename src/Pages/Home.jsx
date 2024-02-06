@@ -27,7 +27,7 @@ const Home = () => {
         
         <div className="container mx-auto h-screen">
           <div className="p-9">
-            <div className="flex ">
+            <div className="md:flex ">
               <div className=" w-[300px] p-3">
                 <div>
                   <div>
@@ -71,7 +71,7 @@ const Home = () => {
                   </ul>
                 </div>
               </div>
-              <div className=" w-full p-3">
+              <div className="w-full p-3">
                 {Components ? viewCompontent(Components) : <GetStarted />}
               </div>
             </div>

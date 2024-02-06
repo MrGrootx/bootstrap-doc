@@ -3,11 +3,11 @@ const GetStarted = () => {
     <>
       <section>
         <div>
-          <div className="flex justify-between items-center">
+          <div className="xl:flex justify-between items-center">
             <h2 className="text-4xl font-semibold text-gray-50">
               Get started with Bootstrap
             </h2>
-            <div>
+            <div className="mt-3 xl:mt-0">
               <a
                 href="https://github.com/twbs/bootstrap/blob/v5.3.2/site/content/docs/5.3/getting-started/introduction.md"
                 target="_blank"
@@ -24,14 +24,14 @@ const GetStarted = () => {
           </p>
         </div>
 
-        <div className="bg-gray-600 max-w-96 p-3 rounded-md mt-4">
-          <div className="flex">
+        <div className="bg-gray-600 md:max-w-96 p-3 border rounded-md mt-4">
+          <div className="md:flex ">
             <img
               src="https://srv.carbonads.net/static/30242/2ba64892272a689daf5cc473b26b988461df56e7"
               alt="img"
-              className="w-32 h-28"
+              className="w-32 h-28 mx-auto rounded"
             />
-            <h3 className="pl-4 text-sm text-white">
+            <h3 className="pl-4 text-sm text-white mt-3 md:mt-0">
               Adobe Creative Cloud for Teams. Put creativity to work.
             </h3>
           </div>
@@ -52,18 +52,18 @@ const GetStarted = () => {
 
         <div>
           <div className="ml-4 mt-4">
-              
             <h2 className="text-gray-50">
               1. Create a new <span className=" text-pink-500">index.html</span>{" "}
               file in your project root. Include the{" "}
               <span className="text-pink-500">{`<meta name="viewport"></meta>`}</span>{" "}
-              tag as well for <span className="text-blue-500 underline cursor-pointer">proper responsive behavior</span> in mobile devices
+              tag as well for{" "}
+              <span className="text-blue-500 underline cursor-pointer">
+                proper responsive behavior
+              </span>{" "}
+              in mobile devices
             </h2>
           </div>
         </div>
-
-       
-
       </section>
     </>
   );
