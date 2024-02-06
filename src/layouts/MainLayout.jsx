@@ -4,16 +4,18 @@ import Home from "../Pages/Home";
 // import Home from "../Pages/Home";
 const MainLayout = () => {
   return (
-    <div>
-       <div>
+    <>
       <TheNavbar />
-      <Home/>
-      <div>
-      <Outlet />
-      </div>
-    </div>
-    </div>
-  )
-}
 
-export default MainLayout
+      <div>
+        <Home />
+
+        <div>
+          <Outlet />
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default MainLayout;

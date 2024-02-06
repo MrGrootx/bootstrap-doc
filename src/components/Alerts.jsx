@@ -1,9 +1,10 @@
 const Alerts = () => {
   return (
     <>
-      <section>
+      <section className="">
+        
         <div>
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between items-center ">
             <h2 className="text-4xl font-semibold text-gray-50">Alerts</h2>
             <div>
               <a
@@ -22,7 +23,7 @@ const Alerts = () => {
           </p>
         </div>
 
-        <div className="bg-gray-600 max-w-96 p-3 rounded-md mt-4">
+        <div className="bg-gray-600 max-w-96 p-3 rounded-md mt-4 border">
           <div className="flex">
             <img
               src="https://srv.carbonads.net/static/30242/13cb3fbccbcc20e37fe4f8dfbf3820d38931fd19"
@@ -35,8 +36,8 @@ const Alerts = () => {
           </div>
         </div>
 
-        <div className="ml-4 mt-4">
-          <div>
+        <div className="ml-4 mt-4 ">
+          <div className="">
             <h1 className="text-3xl font-bold text-white">Examples</h1>
             <h2 className="text-gray-50">
               Alerts are available for any length of text, as well as an
@@ -53,7 +54,7 @@ const Alerts = () => {
             </h2>
           </div>
 
-          <div className="bg-[#032830] border-s-4 border-[#087990] mt-6">
+          <div className="bg-[#032830] border-s-4 border-[#087990] mt-6 ">
             <div className="p-3">
               <p className="text-[#6edff6]">
                 Heads up! As of v5.3.0, the{" "}
@@ -64,8 +65,8 @@ const Alerts = () => {
             </div>
           </div>
 
-          <div className="border rounded border-gray-400 mt-4 ">
-            <div className="p-5">
+          <div className="border rounded border-gray-400 mt-4">
+            <div className="p-5 ">
               <div className="border border-[#084298] p-4 bg-[#031633] text-[#2588fe] rounded-md mb-2">
                 A simple primary alert—check it out!
               </div>
@@ -97,7 +98,6 @@ const Alerts = () => {
               <div className="border border-[#343a40] p-4 bg-[#1a1d20] text-gray-200 rounded-md mb-2">
                 A simple primary alert—check it out!
               </div>
-
             </div>
           </div>
         </div>
