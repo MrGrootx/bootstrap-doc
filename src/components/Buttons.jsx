@@ -1,8 +1,86 @@
-
 const Buttons = () => {
   return (
-    <div>Buttons</div>
-  )
-}
+    <section>
+      <div>
+        <div className="flex justify-between items-center ">
+          <h2 className="text-4xl font-semibold text-gray-50">Buttons</h2>
+          <div>
+            <a
+              href="https://github.com/twbs/bootstrap/blob/v5.3.2/site/content/docs/5.3/components/alerts.md"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-2 py-1 border-gray-600 border rounded hover:border-purple-600 hover:text-purple-600 transition-all duration-200 text-gray-600"
+            >
+              View on Github
+            </a>
+          </div>
+        </div>
+        <p className="text-xl mt-3 text-gray-300">
+          Use Bootstrap custom button styles for actions in forms, dialogs, and
+          more with support for multiple sizes, states, and more.
+        </p>
+      </div>
 
-export default Buttons
+      <div className="bg-gray-600 md:max-w-96 p-3 rounded-md mt-4 border">
+        <div className="flex">
+          <img
+            src="https://srv.carbonads.net/static/30242/cfae0bcc9eeb2652dd375b40461352efdb6057ba"
+            alt="img"
+            className="w-32 h-28"
+          />
+          <h3 className="pl-4 text-sm text-white">
+            Adobe Creative Cloud for Teams. Put creativity to work.
+          </h3>
+        </div>
+      </div>
+
+      <div className="mt-10">
+        <h2 className="text-4xl font-semibold text-gray-50">Base class </h2>
+        <p className="text-sn mt-3 text-gray-300">
+          Bootstrap has a base {<span className="text-pink-500">.btn</span>}{" "}
+          class that sets up basic styles such as padding and content alignment.
+          By default, {<span className="text-pink-500">.btn</span>} controls
+          have a transparent border and background color, and lack any explicit
+          focus and hover styles.
+        </p>
+      </div>
+      <div className="mt-5">
+        <img
+          src="https://media.discordapp.net/attachments/1051517145860821044/1204642406306283610/image.png?ex=65d579aa&is=65c304aa&hm=2314b63af3453d2e8920758744ab6916827f19990bd91d52f00f1fcbf632812b&=&format=webp&quality=lossless"
+          alt=""
+        />
+      </div>
+
+      <div>
+        <p className="text-sn mt-3 text-gray-300">
+          The {<span className="text-pink-500">.btn</span>} class is intended to
+          be used in conjunction with our button variants, or to serve as a
+          basis for your own custom styles.
+        </p>
+
+        <div className="bg-[#332701] border-s-4 border-[#997404] mt-6 ">
+          <div className="p-3">
+            <p className="text-[#deb823]">
+              If you are using the {<span className="text-pink-500">.btn</span>}{" "}
+              class on its own, remember to at least define some explicit{" "}
+              {<span className="text-pink-500">:focus</span>} and/or{" "}
+              {<span className="text-pink-500">:focus-visible</span>} styles.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div className="mt-7">
+          <h2 className="text-2xl font-semibold text-gray-50">Variants </h2>
+        </div>
+        <p className="mt-3 text-gray-300">
+          Bootstrap includes several button variants, each serving its own
+          semantic purpose, with a few extras thrown in for more control.
+        </p>
+      </div>
+    </section>
+  );
+};
+
+export default Buttons;

@@ -1,7 +1,7 @@
 const Alerts = () => {
   return (
     <>
-      <section className="hidden">
+      <section className="">
         
         <div>
           <div className="flex justify-between items-center ">
@@ -36,7 +36,7 @@ const Alerts = () => {
           </div>
         </div>
 
-        <div className="ml-4 mt-4 ">
+        <div className="md:ml-4 mt-4 ">
           <div className="">
             <h1 className="text-3xl font-bold text-white">Examples</h1>
             <h2 className="text-gray-50">
