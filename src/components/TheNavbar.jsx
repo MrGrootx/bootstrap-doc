@@ -43,7 +43,7 @@ const TheNavbar = () => {
             <div className=" hidden xl:block">
               <div className="flex">
                 <div className="flex items-center gap-x-2">
-                  <FaGithub className="text-xl text-gray-300 hover:text-gray-100 cursor-pointer" />
+                  <a href="https://github.com/MrGrootx/bootstrap-doc" target="_blank" rel="noopener noreferrer"><FaGithub className="text-xl text-gray-300 hover:text-gray-100 cursor-pointer" /></a>
                   <FaTwitter className="text-xl text-gray-300 hover:text-gray-100 cursor-pointer" />
                 </div>
               </div>
