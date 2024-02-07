@@ -44,6 +44,7 @@ const Buttons = () => {
           focus and hover styles.
         </p>
       </div>
+
       <div className="mt-5">
         <img
           src="https://media.discordapp.net/attachments/1051517145860821044/1204642406306283610/image.png?ex=65d579aa&is=65c304aa&hm=2314b63af3453d2e8920758744ab6916827f19990bd91d52f00f1fcbf632812b&=&format=webp&quality=lossless"
@@ -79,6 +80,49 @@ const Buttons = () => {
           semantic purpose, with a few extras thrown in for more control.
         </p>
       </div>
+
+      <div className="mt-5 border border-gray-500 border-opacity-50 p-5 rounded">
+        <div>
+          <ul className="flex gap-x-2">
+            <li className="bg-[#0d6efd] hover:bg-[#0d6dfdea] inline-block px-2 py-1 rounded-md text-gray-100 cursor-pointer">
+              Primary
+            </li>
+            <li className="bg-[#6c757d] hover:bg-[#596168] inline-block px-2 py-1 rounded-md text-gray-100 cursor-pointer">
+              Secondary
+            </li>
+            <li className="bg-[#198754] hover:bg-[#198754e6] inline-block px-2 py-1 rounded-md text-gray-100 cursor-pointer">
+              Success
+            </li>
+            <li className="bg-[#dc3545] hover:bg-[#c32f3e] inline-block px-2 py-1 rounded-md text-gray-100 cursor-pointer">
+              Danger
+            </li>
+            <li className="bg-[#ffc107] hover:bg-[#ffc107dd] inline-block px-2 py-1 rounded-md text-gray-600 cursor-pointer">
+              Warning
+            </li>
+            <li className="bg-[#0dcaf0] hover:bg-[#0dcaf0eb] inline-block px-2 py-1 rounded-md text-gray-600 cursor-pointer">
+              Info
+            </li>
+            <li className="bg-[#f8f9fa] hover:bg-[#0dcaf0eb] inline-block px-2 py-1 rounded-md text-gray-600 cursor-pointer">
+              Light
+            </li>
+            <li className="inline-block px-2 py-1 rounded-md text-gray-200 cursor-pointer">
+              Dark
+            </li>
+            <li className="inline-block px-2 py-1 rounded-md text-blue-400 hover:text-blue-500 underline cursor-pointer">
+              Link
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="bg-[#032830] border-s-4 border-[#087990] mt-6 ">
+        <div className="p-3">
+          <p className="text-[#6edff6] text-sm">
+          <span className="font-bold">Accessibility tip:</span> Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies like screen readers. Please ensure the meaning is obvious from the content itself (e.g., the visible text with a <span className="text-blue-600">sufficient color contrast</span>) or is included through alternative means, such as additional text hidden with the <span className="text-pink-500">.visually-hidden</span> class.
+          </p>
+        </div>
+      </div>
+
     </section>
   );
 };
